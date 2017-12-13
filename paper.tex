@@ -1,0 +1,81 @@
+%!TEX program = pdflalatex
+\documentclass[conference]{IEEEtran}
+
+\usepackage{ifluatex}
+\ifluatex
+  \usepackage{fontspec}
+  \usepackage{polyglossia} % babel replacement for use with fontspec
+  \setdefaultlanguage[variant=american]{english}
+  \selectlanguage[variant=american]{english}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[american]{babel}
+\fi
+
+\usepackage[acronym, nomain, nowarn]{glossaries}
+\loadglsentries{acronyms}
+\usepackage{csquotes}
+\usepackage{booktabs}
+\usepackage[hyphens]{url}
+\usepackage[pdfhighlight=/O, hidelinks, unicode=true]{hyperref}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{fixmath}
+\usepackage{algorithm2e}
+\usepackage{subcaption}
+
+
+\usepackage{eurosym}
+\usepackage{siunitx}
+\sisetup{load-configurations = abbreviations,binary-units, per-mode=symbol, detect-weight=true, detect-family=true}
+\DeclareSIUnit{\EUR}{\text{\euro}}
+
+\usepackage{tabu}
+\makeglossaries
+\usepackage[url=false,doi=false,backend=biber,style=ieee,isbn=false,sorting=none]{biblatex}
+\addbibresource{literature.bib}
+\usepackage[inline]{enumitem}
+
+\usepackage[np]{numprint}
+
+\npstyleenglish
+
+% QoMEX wants this
+% \usepackage[switch]{lineno}
+
+
+\begin{document}
+
+% \IEEEoverridecommandlockouts
+% \IEEEpubid{\makebox[\columnwidth]{\scriptsize{QoMEX2017 --- Erfurt, Germany; XXX-X-XXXX-XXXX-X/XX/\$XX.XX \copyright2017 IEEE}}\hspace{\columnsep}\makebox[\columnwidth]{ }}
+% \linenumbers %deactivate for camera-ready paper!
+
+\title{Investigating Web Browser Speed Metrics and their Relationship to User Experience
+ (Working Title)}
+
+% Submissions are double-blind! Remove the others and all links to source & data (with a note for the reason)
+% \author{\IEEEauthorblockN{Florian Metzger\IEEEauthorrefmark{1}, Sebastian Surminski\IEEEauthorrefmark{1}, Chris Schönherr\IEEEauthorrefmark{1} and Tobias Hoßfeld\IEEEauthorrefmark{1}}
+% \IEEEauthorblockA{\IEEEauthorrefmark{1}
+% Chair of Modeling of Adaptive Systems\\
+% University of Duisburg-Essen\\
+% Essen, Germany\\
+% \{florian.metzger,tobias.hossfeld\}@uni-due.de}}
+
+\maketitle
+
+\input{abstract.tex}
+
+% \begin{keywords}
+%     component; formatting; style; styling; insert (key words)
+% \end{keywords}
+
+\IEEEpeerreviewmaketitle
+
+\input{introduction.tex}
+\input{background.tex}
+\input{conclusion.tex}
+
+\printbibliography 
+
+\end{document}
