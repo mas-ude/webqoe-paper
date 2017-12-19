@@ -1,0 +1,11 @@
+Name,Count of absolved Tests,URL,MeanSI,BorderSI,MeanPSI,BorderPSI,Datetime,Category,Browserversion
+youtube.com,50,https://www.youtube.com,2135,153.4345787363461,2194,152.6889062112896,2017-11-29T11:38:52Z,1,57.0
+twitch.tv,50,https://www.twitch.tv,510,13.814871986377577,460,30.189090479840562,2017-11-29T12:08:06Z,1,57.0
+wikipedia.org,50,https://en.wikipedia.org/wiki/P-90,313,10.352808314655498,311,10.323080160494733,2017-11-29T12:39:38Z,2,57.0
+computerbase.de,50,https://www.computerbase.de/2017-11/ati-radeon-9500-test-rueckblick/,346,5.734465624624495,348,5.480995530010949,2017-11-29T13:06:07Z,2,57.0
+amazon.com,50,https://www.amazon.com/dp/B016Y2BVKA/,637,29.234896408231037,750,30.84494538818313,2017-11-29T13:32:12Z,3,57.0
+zalando.de,50,https://www.zalando.de/tamaris-snowbootwinterstiefel-graphite-ta111y02o-c11.html,602,30.722648323346082,1036,65.05192461411114,2017-11-29T14:10:25Z,3,57.0
+google.com,50,https://www.google.de/search?q=Testsuche,714,173.1628664119418,709,172.984852053583,2017-11-29T14:42:14Z,4,57.0
+yahoo.com,50,https://de.search.yahoo.com/search?p=Testsuche,518,63.3865333331931,536,62.68936751954035,2017-11-29T15:09:59Z,4,57.0
+forumbase.de,50,https://www.computerbase.de/forum/showthread.php?t=2721,369,9.045776915224032,387,8.21331212118473,2017-11-29T15:36:51Z,5,57.0
+eu.battle.net,50,https://eu.battle.net/forums/de/wow/topic/13124237446,1671,152.6906673768898,1703,152.96013797064907,2017-11-29T16:03:01Z,5,57.0
